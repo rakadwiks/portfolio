@@ -1,0 +1,41 @@
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.section-media .social-media {
+  text-align: center;
+}
+.section-media .social-media a {
+  margin-right: 10px;
+}
+.section-media .social-media a:hover {
+  text-decoration: none;
+}
+.section-media .social-media a span {
+  margin-right: 4px;
+}
+
+.section-about .title {
+  font-weight: bolder;
+}
+.section-about .about p {
+  text-align: justify;
+  font-size: 20px;
+  font-style: italic;
+  justify-content: center;
+}
+
+.section-title .title {
+  font-weight: bolder;
+}
+
+.section-navbar .navbar a {
+  font-weight: 400;
+}/*# sourceMappingURL=transition.css.map */
